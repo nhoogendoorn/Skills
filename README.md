@@ -20,6 +20,8 @@ Captures design intent, encodes trade-offs, and provides decision heuristics —
 - Produces decision heuristics that help an LLM say "no" to misaligned choices
 - Includes a validation step to catch contradictions before delivery
 
+**Tip:** Provide design inspiration — app names, screenshots, or references — alongside your product description. For example: "I want the information density of Things 3 with the playfulness of Duolingo." Inspiration produces significantly better briefs.
+
 **Use When:** You need to define design direction for an Apple platform app, create a stable reference that prevents design drift across multiple LLM sessions, or align future design decisions to a single source of truth.
 
 ## Usage

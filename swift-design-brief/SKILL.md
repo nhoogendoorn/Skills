@@ -39,7 +39,7 @@ Every brief inherits these constraints from Apple's Human Interface Guidelines. 
 
 ### 1. Gather Input
 
-Ask for the required field. Infer sensible defaults for optional fields and state assumptions explicitly.
+Ask for the required field. Infer sensible defaults for optional fields and state assumptions explicitly. Actively encourage the user to share design inspiration — existing apps, screenshots, or references that capture the feel they're after. Inspiration produces significantly better briefs.
 
 **Required:**
 - Product description
@@ -49,6 +49,7 @@ Ask for the required field. Infer sensible defaults for optional fields and stat
 - Target audience
 - Brand personality keywords
 - Hard constraints
+- Design inspiration — screenshots, app names, or URLs of existing apps whose look, feel, or interaction patterns the user wants to draw from. Use these as directional reference, not as targets to copy. Extract the relevant qualities (e.g., "the information density of Things 3" or "the playful motion of Duolingo") and fold them into the brief's visual direction and design principles.
 
 Do not repeat user input verbatim — fold it into the brief's structure.
 
