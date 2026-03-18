@@ -24,6 +24,22 @@ Captures design intent, encodes trade-offs, and provides decision heuristics —
 
 **Use When:** You need to define design direction for an Apple platform app, create a stable reference that prevents design drift across multiple LLM sessions, or align future design decisions to a single source of truth.
 
+### 🖼 SwiftUI Logo Generator
+
+**Purpose:** Generate programmatic SwiftUI logos and app icons from design briefs or user descriptions. Produces self-contained `LogoView` structs using shapes, paths, gradients, and SF Symbols — no external dependencies.
+
+**Key Features:**
+- Proposes three distinct logo directions (abstract geometric, lettermark, symbolic icon)
+- Generates scalable SwiftUI code that renders at any size from 16pt to 1024pt
+- Includes a debug preview sheet for reviewing logos at multiple sizes
+- Cross-platform export support (macOS `NSSavePanel`, iOS Photos/ShareLink)
+- Apple Icon Composer integration for multi-layer dynamic app icons
+- References curated color palettes and shape patterns
+
+**Tip:** Run the Swift Design Brief skill first to generate a design brief — the logo generator uses it to extract color strategy, personality traits, and aesthetic direction for better results.
+
+**Use When:** You want to create an app icon, logo, or branding asset entirely in SwiftUI code — from concept through export to the asset catalog.
+
 ## Usage
 
 Each skill is self-contained with its own documentation. Refer to the `SKILL.md` file in each skill's directory for detailed workflows, guidelines, and examples. Supporting materials like output templates live in the skill's `references/` folder.
