@@ -224,8 +224,6 @@ One sentence: [App name] helps [target audience] [solve problem] by [unique appr
 - Update cadence recommendation
 - Seasonal opportunities relevant to this app category
 
-For ASO analysis tools, run scripts from `scripts/` directory. See [references/aso-guide.md](references/aso-guide.md) -- Scripts Reference for available tools.
-
 **Copywriting Direction**
 
 *Headline options (3 alternatives using formulas from copywriting guide):*
@@ -362,18 +360,8 @@ Before delivering, verify each file:
 ### Reference Files
 - [references/copywriting-guide.md](references/copywriting-guide.md) -- Headline formulas, CTA guidelines, page structure, PAS/AIDA/StoryBrand frameworks. Consult when writing marketing.md copywriting sections and tone-of-voice.md writing principles.
 - [references/paywall-patterns.md](references/paywall-patterns.md) -- Paywall types, templates, timing rules, anti-patterns, experiment ideas. Consult when writing monetization.md paywall strategy.
-- [references/aso-guide.md](references/aso-guide.md) -- Platform requirements, keyword research, metadata optimization, visual assets, scripts reference. Consult when writing marketing.md ASO section.
+- [references/aso-guide.md](references/aso-guide.md) -- Platform requirements, keyword research, metadata optimization, visual assets. Consult when writing marketing.md ASO section.
 - [references/pricing-frameworks.md](references/pricing-frameworks.md) -- Pricing models, tier progression, financial math, sales strategy. Consult when writing monetization.md pricing sections.
 - [references/minimalist-principles.md](references/minimalist-principles.md) -- The 8 principles, decision framework, community-first foundation, marketing philosophy. Consult when writing marketing.md go-to-market and review checkpoint.
 - [references/tone-of-voice-guide.md](references/tone-of-voice-guide.md) -- Voice vs. tone framework, formality spectrum, context-specific tone shifts. Consult when writing tone-of-voice.md.
 
-### ASO Analysis Scripts
-Located in `scripts/`. Run with Python 3. See [references/aso-guide.md](references/aso-guide.md) -- Scripts Reference for details.
-- `keyword_analyzer.py` -- Keyword research and analysis
-- `metadata_optimizer.py` -- Metadata optimization with character validation
-- `competitor_analyzer.py` -- Competitor ASO analysis
-- `aso_scorer.py` -- ASO health score calculation
-- `ab_test_planner.py` -- A/B test planning and tracking
-- `localization_helper.py` -- Multi-language optimization
-- `review_analyzer.py` -- Review sentiment analysis
-- `launch_checklist.py` -- Pre-launch validation

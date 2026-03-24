@@ -50,7 +50,7 @@ Captures design intent, encodes trade-offs, and provides decision heuristics —
 - Includes paywall strategy with trigger points, screen components, and A/B testing roadmap
 - Drafts actual App Store metadata respecting platform character limits (Apple & Google)
 - Copywriting direction using proven frameworks (PAS, AIDA, StoryBrand)
-- 8 bundled ASO Python scripts for keyword analysis, metadata optimization, competitor analysis, and more
+- Extensive reference guides (4,000+ lines) covering copywriting, paywall patterns, ASO, pricing, and tone of voice
 - Minimalist review checkpoint to gut-check the entire plan
 
 **Use When:** You want to plan marketing for a mobile app — from pricing and monetization through content strategy, app store optimization, paywall design, and marketing visuals.
