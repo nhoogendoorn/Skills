@@ -40,6 +40,21 @@ Captures design intent, encodes trade-offs, and provides decision heuristics —
 
 **Use When:** You want to create an app icon, logo, or branding asset entirely in SwiftUI code — from concept through export to the asset catalog.
 
+### ✨ Polish SwiftUI Interfaces
+
+**Purpose:** Design engineering principles for making SwiftUI interfaces feel polished on Apple platforms. Ports the web-focused "details that make interfaces feel better" playbook to native SwiftUI idioms, and adds iOS-native polish topics. SwiftUI only (iOS/iPadOS-focused).
+
+**Key Features:**
+- 20 core principles mapped to current SwiftUI APIs (continuous/concentric corner radius, springs, transitions, `monospacedDigit`, scale-on-press `ButtonStyle`, 44pt hit areas)
+- iOS-native additions: haptics via `sensoryFeedback`, SF Symbol effects, Dynamic Type, Reduce Motion / Reduce Transparency
+- iOS 26 Liquid Glass guidance (`glassEffect`, `GlassEffectContainer`, `.buttonStyle(.glass)`)
+- Review output format and a checklist for auditing existing views
+- Reference deep-dives: typography, surfaces, animations, feedback & accessibility, performance, Liquid Glass
+
+**Tip:** This is the SwiftUI sibling of the web-focused `make-interfaces-feel-better` skill. For broader code-quality review of SwiftUI (architecture, state, performance), pair it with `swiftui-pro`.
+
+**Use When:** You're building or reviewing a SwiftUI view and want it to feel more polished — animations, micro-interactions, haptics, press states, corner radius, typography, or any "make it feel better" / "feels off" detail work.
+
 ### 📱 App Marketing Plan
 
 **Purpose:** Create a comprehensive app marketing strategy by generating four tailored deliverable files: a tone of voice guide, monetization plan (pricing, tiers, paywall strategy), marketing plan (go-to-market, content strategy, ASO, copywriting), and a design brief for marketing visuals.
